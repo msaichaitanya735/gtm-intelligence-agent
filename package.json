@@ -1,0 +1,37 @@
+{
+  "name": "gtm-intelligence-agent",
+  "version": "1.0.0",
+  "description": "An AI agent that researches prospect companies and generates personalized outreach — built to explore LLM agent architecture for GTM automation use cases.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msaichaitanya735/gtm-intelligence-agent.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/msaichaitanya735/gtm-intelligence-agent/issues"
+  },
+  "homepage": "https://github.com/msaichaitanya735/gtm-intelligence-agent#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "openai": "^6.27.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.3.5",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
