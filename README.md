@@ -99,7 +99,9 @@ curl -X POST http://localhost:3001/api/research \
   "processingTimeMs": 74384
 }
 ```
-
+> Note: An API key was accidentally committed 
+> in an early commit and has since been rotated 
+> and invalidated. The repository is safe to use.
 ## Why I Built This
 
 Wanted to understand the core architecture behind 
